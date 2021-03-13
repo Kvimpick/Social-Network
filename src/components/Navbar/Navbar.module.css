@@ -1,10 +1,20 @@
 .nav{
     grid-area: n;
-    background-color: burlywood;
+    /*background-color: burlywood;*/
 }
-.item{
-    color: white;
+.item {
+    /*font-weight: bold;*/
+    font-size: 20px;
+    padding: 7px;
 }
-.active{
-    color: red;
+.item:hover{
+    background-color: #F1F3F4;
+    border-radius: 5px;
+}
+.item a{
+    color: #585757;
+    text-decoration: none;
+}
+.item a.activeLink{
+    color: #2A41E8;
 }
