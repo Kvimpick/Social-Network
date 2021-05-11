@@ -1,0 +1,12 @@
+.sidebar-wrapper{
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'h h h'
+    'c c c';
+    margin: 0 auto;
+}
+.sidebar-wrapper h1{
+    grid-area: h;
+}

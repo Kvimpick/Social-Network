@@ -2,15 +2,30 @@
     display: grid;
     grid-template-columns: 2fr 10fr;
 }
+.dialogs a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #585757;
+}
 .dialogsItems{
-    padding: 10px;
+    border-right: 1px solid #eaeaee;
+
 }
 .dialog.active{
-    color: #2A41E8;
+    padding: 8px;
 }
-.messages{
-    padding: 10px;
+.dialog:hover{
+    background-color: #F1F3F4;
+    border-radius: 5px;
 }
 .message{
-
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #585757;
+}
+img{
+    width: 40px;
+    border-radius: 25px;
 }

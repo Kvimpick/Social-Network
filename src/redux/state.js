@@ -19,6 +19,13 @@ let State = {
             {id: 2, message: 'Bye!'},
             {id: 3, message: 'How are you??'}
         ]
+    },
+    sidebar: {
+         sidebarItem: [
+             {id: 1, name: 'Taras'},
+             {id: 2, name: 'Alina'},
+             {id: 3, name: 'Pavlo'}
+         ]
     }
 }
 

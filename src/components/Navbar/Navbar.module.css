@@ -1,10 +1,11 @@
 .nav{
     grid-area: n;
     /*background-color: burlywood;*/
+    border-right: 1px solid #eaeaee;
 }
 .item {
     /*font-weight: bold;*/
-    font-size: 20px;
+    font-size: 24px;
     padding: 7px;
 }
 .item:hover{
